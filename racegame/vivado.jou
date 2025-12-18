@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Dec 18 16:29:55 2025
+# Process ID: 16476
+# Current directory: C:/fpga_trabajo/racegame/racegame
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11624 C:\fpga_trabajo\racegame\racegame\racegame.xpr
+# Log file: C:/fpga_trabajo/racegame/racegame/vivado.log
+# Journal file: C:/fpga_trabajo/racegame/racegame\vivado.jou
+# Running On        :LAPTOP-MMM5TG8H
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :19045
+# Processor Detail  :Intel(R) Core(TM) i3-7020U CPU @ 2.30GHz
+# CPU Frequency     :2304 MHz
+# CPU Physical cores:2
+# CPU Logical cores :4
+# Host memory       :8414 MB
+# Swap memory       :7127 MB
+# Total Virtual     :15541 MB
+# Available Virtual :5463 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/fpga_trabajo/racegame/racegame/racegame.xpr
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
